@@ -1,0 +1,12 @@
+fragment CmsRowPageLinksFragment on CmsPageLink  {
+  __typename
+  id
+  title
+  url
+  asset {
+    ...CmsRowAssetFragment
+  }
+  description {
+    ...CmsRowRichTextFragment
+  }
+}

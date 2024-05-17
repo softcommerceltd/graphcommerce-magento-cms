@@ -1,0 +1,5 @@
+query CmsPage($url: String!) {
+  cmsPage(identifier: $url) {
+    ...CmsPageContentFragment
+  }
+}

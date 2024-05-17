@@ -1,0 +1,13 @@
+fragment CmsRowRichTextFragment on CmsRichText  {
+  __typename
+  raw
+  #{
+  #  children {
+  #    type
+  #    children {
+  #      bold
+  #      text
+  #    }
+  #  }
+  #}
+}

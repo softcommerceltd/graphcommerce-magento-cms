@@ -1,0 +1,16 @@
+fragment CmsRowProductFragment on CmsRowProduct {
+  __typename
+  id
+  title
+  variant
+  identity
+  asset {
+    ...CmsRowAssetFragment
+  }
+  pageLinks {
+    ...CmsRowPageLinksFragment
+  }
+  productCopy {
+    ...CmsRowRichTextFragment
+  }
+}

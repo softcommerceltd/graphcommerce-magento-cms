@@ -1,0 +1,7 @@
+fragment CmsRowQuoteFragment on CmsRowQuote {
+  __typename
+  id
+  quote {
+    ...CmsRowRichTextFragment
+  }
+}

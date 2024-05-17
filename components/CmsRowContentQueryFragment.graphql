@@ -1,0 +1,9 @@
+fragment CmsRowContentQueryFragment on CmsPage  {
+  cmsRowContent {
+    ...CmsRowHeroBannerFragment
+    ...CmsRowLinksFragment
+    ...CmsRowProductFragment
+    ...CmsRowSpecialBannerFragment
+    ...CmsRowQuoteFragment
+  }
+}

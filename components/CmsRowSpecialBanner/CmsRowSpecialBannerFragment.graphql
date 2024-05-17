@@ -1,0 +1,14 @@
+fragment CmsRowSpecialBannerFragment on CmsRowSpecialBanner  {
+  __typename
+  id
+  topic
+  asset {
+    ...CmsRowAssetFragment
+  }
+  copy {
+    ...CmsRowRichTextFragment
+  }
+  pageLinks {
+    ...CmsRowPageLinksFragment
+  }
+}

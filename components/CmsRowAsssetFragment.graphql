@@ -1,0 +1,9 @@
+fragment CmsRowAssetFragment on CmsAsset  {
+  __typename
+  url
+  width
+  height
+  mimeType
+  size
+  alt
+}

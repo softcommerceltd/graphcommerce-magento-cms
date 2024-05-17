@@ -1,0 +1,13 @@
+fragment CmsRowHeroBannerFragment on CmsRowHeroBanner {
+  __typename
+  id
+  heroAsset {
+    ...CmsRowAssetFragment
+  }
+  copy {
+    ...CmsRowRichTextFragment
+  }
+  pageLinks {
+    ...CmsRowPageLinksFragment
+  }
+}

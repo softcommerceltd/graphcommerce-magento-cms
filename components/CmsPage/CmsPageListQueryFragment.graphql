@@ -1,0 +1,9 @@
+fragment CmsPageListQueryFragment on CmsPageItem  {
+  identifier
+  title
+  content
+  content_heading
+  meta_title
+  meta_description
+  meta_keywords
+}

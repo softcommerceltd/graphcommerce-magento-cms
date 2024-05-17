@@ -1,0 +1,12 @@
+fragment CmsRowLinksFragment on CmsRowLinks {
+  __typename
+  id
+  title
+  linksVariant
+  rowLinksCopy {
+    ...CmsRowRichTextFragment
+  }
+  pageLinks {
+   ...CmsRowPageLinksFragment
+  }
+}

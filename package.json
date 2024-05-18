@@ -1,10 +1,10 @@
 {
   "name": "@softcommerce/graphcommerce-magento-cms",
-  "version": "1.0.0",
-  "description": "GraphCommerce CMS",
+  "version": "1.0.1",
+  "description": "GraphCommerce - Magento CMS",
   "main": "index.js",
-  "repository": "https://github.com/softcommerceltd/graphcommerce-magento-cms",
-  "author": "Soft Commerce Ltd",
+  "repository": "github:softcommerceltd/graphcommerce-magento-cms",
+  "author": "Serhiy K",
   "license": "MIT",
   "sideEffects": false,
   "prettier": "@graphcommerce/prettier-config-pwa",
@@ -15,10 +15,6 @@
     }
   },
   "peerDependencies": {
-    "@graphcommerce/eslint-config-pwa": "^8.0",
-    "@graphcommerce/graphql": "^8.0",
-    "@graphcommerce/magento-store": "^8.0",
-    "@graphcommerce/prettier-config-pwa": "^8.0",
-    "@graphcommerce/typescript-config-pwa": "^8.0"
+    "@graphcommerce/magento-graphcms": "^8.0"
   }
 }

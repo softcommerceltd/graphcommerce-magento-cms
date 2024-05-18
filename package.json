@@ -15,6 +15,17 @@
     }
   },
   "peerDependencies": {
-    "@graphcommerce/magento-graphcms": "^8.0"
+    "@graphcommerce/eslint-config-pwa": "^8.0",
+    "@graphcommerce/graphql": "^8.0",
+    "@graphcommerce/magento-store": "^8.0",
+    "@graphcommerce/prettier-config-pwa": "^8.0",
+    "@graphcommerce/typescript-config-pwa": "^8.0",
+    "@lingui/core": "^4.2",
+    "@lingui/macro": "^4.2",
+    "@lingui/react": "^4.2",
+    "@mui/material": "^5.10.16",
+    "next": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

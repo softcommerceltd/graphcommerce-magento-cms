@@ -1,4 +1,5 @@
 export * from './components/CmsPage/CmsPage.gql'
+export * from './components/CmsPage/CmsPageList.gql'
 export * from './components/CmsRowRenderer'
 export * from './components/CmsRowHeroBanner/CmsRowHeroBanner'
 export * from './components/CmsRowLinks/CmsRowLinks'

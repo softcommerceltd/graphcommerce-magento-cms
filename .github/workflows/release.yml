@@ -31,9 +31,9 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          name: 1.0.2 [GraphCommerce >= 8.0.0] 18 May 2024
-          tag_name: 1.0.2
+          name: 1.0.3 [GraphCommerce >= 8.0.0] 18 May 2024
+          tag_name: 1.0.3
           body: |-
-            - **Feature**: Added CmsRowQuote component
+            - **Enhancement**: Added CmsPageList.gql to index.js export list
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

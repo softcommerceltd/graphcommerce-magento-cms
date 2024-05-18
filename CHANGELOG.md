@@ -1,5 +1,8 @@
 ## Changelog
 
+### Version 1.0.3
+- **Enhancement**: Added CmsPageList.gql to index.js export list
+
 ### Version 1.0.2
 - **Feature**: Added CmsRowQuote component
 

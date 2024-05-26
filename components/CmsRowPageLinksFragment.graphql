@@ -3,6 +3,7 @@ fragment CmsRowPageLinksFragment on CmsPageLink  {
   id
   title
   url
+  icon
   asset {
     ...CmsRowAssetFragment
   }

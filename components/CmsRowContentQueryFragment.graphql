@@ -5,5 +5,7 @@ fragment CmsRowContentQueryFragment on CmsPage  {
     ...CmsRowProductFragment
     ...CmsRowSpecialBannerFragment
     ...CmsRowQuoteFragment
+    ...CmsRowServiceLinksFragment
+    ...CmsRowTextFragment
   }
 }

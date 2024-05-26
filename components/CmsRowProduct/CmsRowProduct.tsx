@@ -38,8 +38,6 @@ export function CmsRowProduct(props: RowProductProps) {
   const { renderer, variant, ...RowProductProps } = props
   const mergedRenderer = { ...defaultRenderer, ...renderer } as VariantRenderer
 
-  // console.log('rowProduct ::: props ----', props)
-
   if (!variant) return null
 
   const RenderType =

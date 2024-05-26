@@ -6,4 +6,5 @@ fragment CmsPageListQueryFragment on CmsPageItem  {
   meta_title
   meta_description
   meta_keywords
+  meta_robots
 }

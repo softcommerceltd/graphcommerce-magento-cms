@@ -1,0 +1,7 @@
+fragment CmsRowTextFragment on CmsRowText {
+  __typename
+  id
+  text {
+    ...CmsRowRichTextFragment
+  }
+}

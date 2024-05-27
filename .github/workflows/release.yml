@@ -31,9 +31,12 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          name: 1.0.3 [GraphCommerce >= 8.0.0] 18 May 2024
-          tag_name: 1.0.3
+          name: 1.0.4 [GraphCommerce >= 8.0.0] 27 May 2024
+          tag_name: 1.0.4
           body: |-
-            - **Enhancement**: Added CmsPageList.gql to index.js export list
+            - **Feature**: Add Cms service links component with MUI icons [#4]
+            - **Feature**: Add CMS text row renderer component [#3]
+            - **Feature**: Add Category Hero Nav to category landing pages [#2]
+            - **Feature**: Add RichText AST description to category pages [#1]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
